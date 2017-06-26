@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "flow",
+    "babel-preset-env",
+    "stage-1",
+    "react",
+    ["env", {"modules": false}]],
+  "retainLines": true,
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties"
+  ]
+}
